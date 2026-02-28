@@ -87,10 +87,10 @@ local function OpenClose()
     BorderColor3 = Color3.fromRGB(255, 0, 0),
     BackgroundTransparency = 1,
     Position = UDim2.new(0.1021, 0, 0.0743, 0),
-    Size = UDim2.new(0, 59, 0, 49),
-    Image = "rbxassetid://136890595976124",
+    Size = UDim2.new(0, 49, 0, 49),
+    Image = "rbxassetid://132882454467814",
     Visible = false,
-  }, ScreenGui)
+}, ScreenGui)
 
   local UICorner = Custom:Create("UICorner", {
     Name = "MainCorner",
