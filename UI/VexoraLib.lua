@@ -6,7 +6,7 @@ local UserInputService = game:GetService("UserInputService")
 local VirtualUser = game:GetService("VirtualUser")
 
 local Custom = {} do
-  Custom.ColorRGB = Color3.fromRGB(250, 7, 7)
+  Custom.ColorRGB = Color3.fromRGB(20, 35, 70)
 
   function Custom:Create(Name, Properties, Parent)
     local _instance = Instance.new(Name)
