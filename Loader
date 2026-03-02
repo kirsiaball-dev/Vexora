@@ -99,7 +99,7 @@ end
 local supportedGames = {
     [9363735110] = {
         name = "Escape Tsunami For Brainrot",
-        url = "https://raw.githubusercontent.com/kirsiaball-dev/Vexora/refs/heads/main/E.lua"
+        url = "https://raw.githubusercontent.com/kirsiaball-dev/Vexora/refs/heads/main/ScriptsGame/E.lua"
     },
     [1234567890] = {
         name = "Garden Horizons",
