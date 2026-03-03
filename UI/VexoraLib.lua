@@ -207,7 +207,7 @@ VexoraLib.Icons = Icons
 function VexoraLib:SetNotification(Config)
   local Title = Config[1] or Config.Title or ""
   local Description = Config[2] or Config.Description or ""
-	local Content = Config[3] or Config.Content or ""
+  local Content = Config[3] or Config.Content or ""
   local Time = Config[5] or Config.Time or 0.5
   local Delay = Config[6] or Config.Delay or 5
 
@@ -535,7 +535,7 @@ function VexoraLib:CreateWindow(Config)
 
   local Min = Custom:Create("TextButton", {
     Font = Enum.Font.SourceSans,
-    Text = "-", 
+    Text = "—", 
     TextColor3 = Color3.fromRGB(255, 255, 255),
     TextSize = 18,
     AnchorPoint = Vector2.new(1, 0.5),
@@ -1257,7 +1257,7 @@ function VexoraLib:CreateWindow(Config)
           SeperatorTitle.Text = Title
         end
 
-        ItemCount += 1
+        ItemCount = ItemCount + 1
         return Sep_Funcs
       end
 
@@ -1283,7 +1283,7 @@ function VexoraLib:CreateWindow(Config)
           Rotation = 0,
         }, Line)
     
-        ItemCount += 1
+        ItemCount = ItemCount + 1
         return LineFuncs
      end
 
@@ -1394,7 +1394,7 @@ function VexoraLib:CreateWindow(Config)
 					Callback()
 				end)
 
-        ItemCount += 1
+        ItemCount = ItemCount + 1
 				return Funcs_Button
       end
 
@@ -1539,7 +1539,7 @@ function VexoraLib:CreateWindow(Config)
         end
         Funcs_Toggle:Set(Funcs_Toggle.Value)
 
-        ItemCount += 1
+        ItemCount = ItemCount + 1
 				return Funcs_Toggle
       end
 
@@ -1751,7 +1751,7 @@ function VexoraLib:CreateWindow(Config)
         Funcs_Slider:Set(tonumber(Default))
         Callback(Funcs_Slider.Value)
 
-        ItemCount += 1
+        ItemCount = ItemCount + 1
 				return Funcs_Slider
       end
 
@@ -1876,7 +1876,7 @@ function VexoraLib:CreateWindow(Config)
 
 				Funcs_Input:Set(Default)
 
-        ItemCount += 1
+        ItemCount = ItemCount + 1
 				return Funcs_Input
       end
 
