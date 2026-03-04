@@ -1,5 +1,5 @@
 local env = _G
-local v3 = loadstring([[-- =========================================================
+local v3 = loadstring(-- =========================================================
 -- ULTRA SMART AUTO KATA (FULL INTEGRATED + LOADING STATUS)
 -- Fitur: Auto play, SimpleSpy, Status Loading
 -- UI: VexoraLib (hasil konversi)
@@ -1226,4 +1226,4 @@ end)
 -- =========================
 -- SELESAI
 -- =========================
-]])
+)
