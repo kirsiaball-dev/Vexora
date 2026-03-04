@@ -1,3 +1,5 @@
+-- fixed dropdown
+-- bocil skid
 local Players = game:GetService("Players")
 local Player = Players.LocalPlayer
 local RunService = game:GetService("RunService")
