@@ -99,16 +99,16 @@ end
 local function getScriptId()
     local g = game.GameId
     if g == 9363735110 then return "a9f3c7d6e2b41f5a8c9d0e3b7a6c1d4f"
-    elseif g == 7018190066 then return "a3e99a8c1a465fc973e7aa0dda0e220c"
-    elseif g == 6325068386 then return "50ba70185011d66f3ed97e4e7f50bd11"
+    elseif g == 3647333358 then return "a3e99a8c1a465fc973e7aa0dda0e220c"
+    elseif g == 9509842868 then return "50ba70185011d66f3ed97e4e7f50bd11"
     else return nil end
 end
 
 local function getGameName()
     local g = game.GameId
     if g == 9363735110 then return "Escape Tsunami For Brainrot"
-    elseif g == 7018190066 then return "Dead Rails"
-    elseif g == 6325068386 then return "Blue Lock Rivals"
+    elseif g == 3647333358 then return "Evade"
+    elseif g == 9509842868 then return "Garden Horizons"
     else return "Unknown Game"
     end
 end
