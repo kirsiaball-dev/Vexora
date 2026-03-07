@@ -101,6 +101,10 @@ local supportedGames = {
         name = "Escape Tsunami For Brainrot",
         url = "https://raw.githubusercontent.com/kirsiaball-dev/Vexora/refs/heads/main/ScriptsGame/E.lua"
     },
+    [3647333358] = {
+        name = "Evade",
+        url = "https://raw.githubusercontent.com/kirsiaball-dev/Vexora/refs/heads/main/ScriptsGame/Ev.lua"
+    }
     [9509842868] = {
         name = "Garden Horizons",
         url = "https://raw.githubusercontent.com/kirsiaball-dev/Vexora/refs/heads/main/G.lua"
