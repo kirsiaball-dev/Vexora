@@ -101,14 +101,6 @@ local function getScriptId()
     if g == 9363735110 then return "65c66a87b33565a9dea1a54b798b6b2a"
     elseif g == 7018190066 then return "a3e99a8c1a465fc973e7aa0dda0e220c"
     elseif g == 6325068386 then return "50ba70185011d66f3ed97e4e7f50bd11"
-    elseif g == 4777817887 then return "6f48a7a95292a0885256d242900d81fb"
-    elseif g == 994732206 then return "1ba7f8bc6888d119d65cdafbe3d78527"
-    elseif g == 4658598196 then return "5698b5c40f0217c268e673ef5e7b6581"
-    elseif g == 6331902150 then return "811768c852543782f63839177a263d53"
-    elseif g == 7709344486 then return "36bb351f4d722c58af15efcb417b67da"
-    elseif g == 6701277882 then return "378a78843196b1ded89499cbbf6e4bf9"
-    elseif g == 7750955984 then return "3e8b8150efb71ad27504e3efbadd5f8a"
-    elseif g == 7326934954 then return "c76b60f068204916e984f1c8ff73e435"
     else return nil end
 end
 
@@ -117,16 +109,6 @@ local function getGameName()
     if g == 9363735110 then return "Escape Tsunami For Brainrot"
     elseif g == 7018190066 then return "Dead Rails"
     elseif g == 6325068386 then return "Blue Lock Rivals"
-    elseif g == 4777817887 then return "Blade Ball"
-    elseif g == 7436755782 then return "Grow a Garden"
-    elseif g == 994732206 then return "Blox Fruit"
-    elseif g == 4658598196 then return "Attack On Titan Revolution"
-    elseif g == 6331902150 then return "Forsaken"
-    elseif g == 7709344486 then return "Steal a Brainrot"
-    elseif g == 6701277882 then return "Fish It"
-    elseif g == 7750955984 then return "Hunty Zombie" 
-    elseif g == 7326934954 then return "99 Night in The Forest"
-    elseif g == 8316902627 then return "Plants Vs Brainrots"
     else return "Unknown Game"
     end
 end
@@ -141,7 +123,7 @@ if scriptId then
         Duration = 10
     })
 
-    local mainUrl = "https://vss.pandadevelopment.net/virtual/file/" .. scriptId
+    local mainUrl = "https://triplesixxx-xyz.vercel.app/api/" .. scriptId .. "/loader.lua"
     local success, result = pcall(function()
         return loadstring(game:HttpGet(mainUrl))()
     end)
