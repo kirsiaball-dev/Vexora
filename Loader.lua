@@ -100,7 +100,7 @@ local function getScriptId()
     local g = game.GameId
     if g == 9363735110 then return "a9f3c7d6e2b41f5a8c9d0e3b7a6c1d4f"
     elseif g == 3647333358 then return "4b7e9a2c5d1f6e8a3c0b9d7f2a4e6c1b"
-    elseif g == 9509842868 then return "50ba70185011d66f3ed97e4e7f50bd11"
+    elseif g == 9509842868 then return "c6a9e3d5f1b74a2c8d0e9f3b6a5c1d7e"
     else return nil end
 end
 
