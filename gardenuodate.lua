@@ -208,7 +208,6 @@ local Grey   = Color3.fromHex("#83889E")
 
 local MainSection = Window:Section({ Title = "Main" })
 local ShopSection = Window:Section({ Title = "Shop" })
-local WebhookSection = Window:Section({ Title = "Webhook" })
 local SettingsSection = Window:Section({ Title = "Settings" })
 
 local MainTab = MainSection:Tab({
